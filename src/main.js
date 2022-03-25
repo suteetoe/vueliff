@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHashHistory} from 'vue-router'
+import { createRouter, createWebHistory} from 'vue-router'
 import Login from './pages/Login.vue'
 import Main from './pages/Main.vue'
 import MemberRegister from './pages/MemberRegister.vue'
@@ -17,7 +17,7 @@ const app = createApp(App);
 
 const router = createRouter({
     // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes: 
       [
         { path: '/', component: Main },
