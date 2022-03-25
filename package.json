@@ -7,9 +7,12 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "@line/liff": "^2.19.0",
+    "primeflex": "^3.1.3",
     "primeicons": "^5.0.0",
     "primevue": "^3.12.2",
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",
